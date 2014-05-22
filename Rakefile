@@ -156,7 +156,7 @@ d4ed33b3876fe6f1e808bed60e134e2f8adf6267
 
 desc 'test simplecov with Travis'
 task :bisect do
-  COMMITS.each do |commit|
+  COMMITS.reverse.each do |commit|
     Dir.chdir('simplecov') { sh "git checkout #{commit}" }
     sh "git add ."
     sh "git commit -m 'testing #{commit}'"
