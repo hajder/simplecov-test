@@ -12,6 +12,6 @@ group :development do
 
   if RUBY_VERSION >= '1.9.3'
     gem 'rubocop'
-    gem 'simplecov'#, '0.7.1'
+    gem 'simplecov', :path => './simplecov'
   end
 end

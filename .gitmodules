@@ -1,0 +1,3 @@
+[submodule "simplecov"]
+	path = simplecov
+	url = https://github.com/colszowka/simplecov

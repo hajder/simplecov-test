@@ -1,3 +1,11 @@
+PATH
+  remote: ./simplecov
+  specs:
+    simplecov (0.8.2)
+      docile (~> 1.1.0)
+      multi_json
+      simplecov-html (~> 0.8.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -30,10 +38,6 @@ GEM
       ruby-progressbar (~> 1.4)
     ruby-progressbar (1.5.1)
     safe_yaml (1.0.3)
-    simplecov (0.8.2)
-      docile (~> 1.1.0)
-      multi_json
-      simplecov-html (~> 0.8.0)
     simplecov-html (0.8.0)
     slop (3.5.0)
     vcr (2.9.0)
@@ -51,6 +55,6 @@ DEPENDENCIES
   prettybacon
   rake
   rubocop
-  simplecov
+  simplecov!
   vcr
   webmock (< 1.16)
